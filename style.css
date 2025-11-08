@@ -1,0 +1,31 @@
+body{
+    font-family: Arial;
+    width: 350px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.btns button{
+    padding: 8px;
+    margin: 5px 3px;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#result{
+    color: green;
+    margin-top: 15px;
+}

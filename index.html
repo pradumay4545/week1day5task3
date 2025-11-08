@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Simple Calculator</h2>
+
+<div class="container">
+
+    <label>Enter First Number:</label>
+    <input type="text" id="num1">
+    <span class="error" id="num1Error"></span>
+
+    <label>Enter Second Number:</label>
+    <input type="text" id="num2">
+    <span class="error" id="num2Error"></span>
+
+    <div class="btns">
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="divide()">Divide</button>
+    </div>
+
+    <h3 id="result"></h3>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
